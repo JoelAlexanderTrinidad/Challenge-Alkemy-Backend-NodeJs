@@ -53,4 +53,3 @@ $ sequelize db:seed:all
 ## Endpoints
 Los endpoints hechos en Postman se encuentran en la raíz en el archivo llamado
 Challenge Alkemy - backend Node js.postman_collection
-```
