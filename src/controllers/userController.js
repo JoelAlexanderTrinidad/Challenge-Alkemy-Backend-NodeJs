@@ -38,8 +38,7 @@ const userController = {
                             email: user.email
                         }
                     },
-                    msg: '¡El usuario se creó con éxito! se envió un email con un nuevo token, o simplemente puede logearse para visualizarlo',
-                    login: 'Para logearse debe ingresar el mail registrado y su contraseña'
+                    msg: '¡El usuario se creó con éxito!',
                 }
                 return res.status(200).json(response)
             }
