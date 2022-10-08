@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       Character.belongsToMany(models.Movie,{
         as : 'movies',
-        through : 'character_movie',
+        through : 'movie-characters',
         foreignKey : 'character_id',
         otherKey: 'movie_id'
       })

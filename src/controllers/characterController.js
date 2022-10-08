@@ -147,12 +147,12 @@ const characterController = {
         try {
 
             let allCharacters = await db.Character.findAll({
-                attributes : ['id','name', 'image', 'age', 'weigth', 'history'],
+                attributes : ['name', 'image', 'age', 'weigth', 'history'],
                 include: [
                     {
                         model: db.Movie,
                         as: 'movies',
-                        attributes: ['id', 'title', 'image']
+                        attributes: ['title', 'image']
                     }
                 ]
             });
@@ -194,9 +194,11 @@ const characterController = {
                         },
                     })
 
+                    console.log(result)
+
                     if(result[0] == undefined){
                         return res.json({
-                            msg: 'Keyword inválido'
+                            msg: `Personaje no encontrado`
                         });
                     }
                     let response = {

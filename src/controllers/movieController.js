@@ -197,7 +197,7 @@ const movieController = {
 
                     if(name[0] == undefined){
                         return res.json({
-                            msg: 'Keyword inválido'
+                            msg: `Película con el nombre '${req.query.name}' no encontrada`
                         });
                     }
 

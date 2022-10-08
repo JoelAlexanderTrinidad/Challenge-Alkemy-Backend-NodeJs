@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ad95b3d7-5a84-42fd-9166-56b44eace35e",
+		"_postman_id": "322be238-9e7b-4138-a548-88a41f7f0fc8",
 		"name": "Challenge Alkemy | backend Node js",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "21747316"
@@ -432,7 +432,7 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvZWxpdG9AZ21haWwuY29tIiwiaWF0IjoxNjY1MDY5ODkyfQ.vR0GjWQYulalQLn65Zd3v8eQW-Gfs-aYMqrWM88sFZY",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -471,7 +471,7 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvZWxpdG9AZ21haWwuY29tIiwiaWF0IjoxNjY1MDY5ODkyfQ.vR0GjWQYulalQLn65Zd3v8eQW-Gfs-aYMqrWM88sFZY",
+								"value": "",
 								"type": "text"
 							}
 						],
